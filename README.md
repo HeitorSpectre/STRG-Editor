@@ -1,6 +1,6 @@
 # STRG Editor
 
-Ferramenta desktop (Windows Forms) para abrir, visualizar, editar e salvar arquivos `.STRG` usados em jogos como **DKCR** e **Metroid Prime 3**.
+Ferramenta desktop (Windows Forms) para abrir, visualizar, editar e salvar arquivos de texto `.STRG` usados em jogos como **DKCR** e **Metroid Prime 3** de Nintendo Wii.
 
 ## O que a ferramenta faz
 
@@ -40,12 +40,3 @@ Ferramenta desktop (Windows Forms) para abrir, visualizar, editar e salvar arqui
 4. Use a barra de busca para localizar textos específicos.
 5. Salve com `Save`, `Save All` ou `Save As`.
 6. Opcionalmente, exporte/importa textos via `TXT`.
-
-## Observações
-
-- Alguns arquivos podem ter texto compartilhado único e bloquear edição direta.
-- A ferramenta mostra alertas para evitar perda de alterações não salvas.
-
----
-
-Se quiser, posso também criar uma versão deste README em inglês ou acrescentar uma seção de contribuição (issues, roadmap e padrão de commits).
