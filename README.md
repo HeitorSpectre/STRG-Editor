@@ -1,42 +1,42 @@
 # STRG Editor
 
-Ferramenta desktop (Windows Forms) para abrir, visualizar, editar e salvar arquivos de texto `.STRG` usados em jogos como **DKCR** e **Metroid Prime 3** de Nintendo Wii.
+Desktop tool (Windows Forms) for opening, viewing, editing, and saving `.STRG` text files used in games such as **DKCR** and **Metroid Prime 3** for Nintendo Wii.
 
-## O que a ferramenta faz
+## What the tool does
 
-- Abre **um ou vários arquivos STRG** ao mesmo tempo.
-- Exibe as **linguagens disponíveis** no arquivo.
-- Mostra e permite editar os textos em uma grade com suporte a múltiplas linhas.
-- Salva alterações no arquivo original (**Save**) ou em um novo arquivo (**Save As**).
-- Faz **busca de texto** com navegação entre resultados.
-- Exporta textos para `.txt` e importa textos a partir de `.txt`.
-- Permite fechar um arquivo específico ou todos os arquivos carregados.
+* Opens **one or multiple STRG files** at the same time.
+* Displays the **available languages** in the file.
+* Shows and allows editing of texts in a grid with multi-line support.
+* Saves changes to the original file (**Save**) or to a new file (**Save As**).
+* Performs **text search** with navigation between results.
+* Exports texts to `.txt` and imports texts from `.txt`.
+* Allows closing a specific file or all loaded files.
 
-## Recursos principais
+## Main Features
 
-- **Edição por idioma:** selecione um idioma e edite somente aquele conjunto de textos.
-- **Busca inteligente:** encontra ocorrências no idioma selecionado e permite navegar entre elas.
-- **Controle de alterações:** identifica arquivos modificados e avisa antes de fechar/importar.
-- **Importação/Exportação TXT:** útil para tradução e revisão fora do programa.
-- **Tratamento de quebras de linha:** converte `\n` corretamente entre visualização e armazenamento.
+* **Language-based editing:** Select a language and edit only that specific set of texts.
+* **Smart search:** Finds occurrences in the selected language and allows navigation between them.
+* **Change tracking:** Detects modified files and prompts before closing/importing.
+* **TXT Import/Export:** Useful for translation and external proofreading.
+* **Line break handling:** Properly converts `\n` between display and storage formats.
 
-## Requisitos
+## Requirements
 
-- **Windows**
-- **.NET Framework 4.8**
-- Visual Studio (recomendado para compilar e executar)
+* **Windows**
+* **.NET Framework 4.8**
+* Visual Studio (recommended for building and running)
 
-## Como executar
+## How to Run
 
-1. Abra a solução `STRGeditor.sln` no Visual Studio.
-2. Compile o projeto `STRGeditor`.
-3. Execute a aplicação (`F5` ou "Start").
+1. Open the `STRGeditor.sln` solution in Visual Studio.
+2. Build the `STRGeditor` project.
+3. Run the application (`F5` or "Start").
 
-## Fluxo básico de uso
+## Basic Usage Workflow
 
-1. `File > Open` para carregar um ou mais arquivos `.STRG`.
-2. Selecione o arquivo e o idioma desejado.
-3. Edite os textos na tabela.
-4. Use a barra de busca para localizar textos específicos.
-5. Salve com `Save`, `Save All` ou `Save As`.
-6. Opcionalmente, exporte/importa textos via `TXT`.
+1. Go to `File > Open` to load one or more `.STRG` files.
+2. Select the desired file and language.
+3. Edit the texts in the table.
+4. Use the search bar to locate specific texts.
+5. Save using `Save`, `Save All`, or `Save As`.
+6. Optionally, export/import texts via `TXT`.
